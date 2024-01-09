@@ -86,4 +86,40 @@ body {
   overflow-x: hidden;
 }
 
+@font-face {
+  font-family: Anybody;
+  src: url('/fonts/Anybody-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: Anybody;
+  src: url('/fonts/Anybody-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: Anybody;
+  src: url('/fonts/Anybody-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: Anybody;
+  src: url('/fonts/CommitMono-400-Regular.otf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: Anybody;
+  src: url('/fonts/CommitMono-700-Bold.otf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: auto;
+}
+
 
