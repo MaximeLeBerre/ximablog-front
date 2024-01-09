@@ -3,7 +3,6 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
   min-height: 100vh;
 }
 
@@ -14,19 +13,33 @@
   align-items: center;
   gap: 23px;
   align-self: stretch;
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("/images/grainy.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 70vh;
+  position: relative;
+  z-index: 1;
+  margin-top: 75px;
 }
+
 
 .hero > h1 {
   text-align: center;
-  font-size: 64px;
+  font-size: 4rem;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 800;
   line-height: normal;
   background: linear-gradient(91deg, #FF4D00 1.93%, #F90 104.36%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-family: Anybody, sans-serif;
+  max-width: 800px;
 }
+
+
+
 
 .hero > div {
   display: flex;
@@ -38,9 +51,32 @@
 .hero > div > span {
   color: #838383;
   text-align: center;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+  font-family: Anybody;
+  font-weight: 300;
+}
+
+@media screen and (min-width: 1200px) {
+  .hero > h1 {
+    font-size: 5rem;
+    max-width: 900px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hero > h1 {
+    font-size: 3rem;
+    max-width: 600px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .hero > h1 {
+    font-size: 2rem;
+  }
+  .hero > div > span {
+    font-size: 1rem;
+  }
 }
 

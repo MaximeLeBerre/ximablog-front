@@ -6,4 +6,30 @@
     padding: 2rem 6rem;
     background: #FFF;
     box-shadow: 0 1px 10px 1px rgba(108, 108, 108, 0.25);
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+}
+
+.link {
+    font-family: CommitMono, sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: inherit;
+    text-decoration: none;
+}
+
+.logo {
+    font-family: CommitMono, sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: inherit;
+    text-decoration: none;
 }

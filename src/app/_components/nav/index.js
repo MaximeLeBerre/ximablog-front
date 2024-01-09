@@ -3,7 +3,7 @@ import styles from './nav.module.css'
 
 export const Nav = () => {
     return <nav className={styles.nav}>
-        <div>Logo</div>
-        <div><Link href="/articles">/articles</Link></div>
+        <Link href="/" className={styles.logo}>📝 Ximablog</Link>
+        <Link className={styles.link} href="/articles">/articles</Link>
     </nav>
 }
