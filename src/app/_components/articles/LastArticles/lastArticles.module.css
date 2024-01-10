@@ -1,0 +1,22 @@
+.main {
+    width: 100%;
+    padding: 0 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+@media screen and (min-width: 1400px) {
+    .main {
+        padding: 0 10rem;
+    }
+}
+
+.title {
+    font-family: CommitMono, sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}

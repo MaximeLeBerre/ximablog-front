@@ -86,6 +86,17 @@ body {
   overflow-x: hidden;
 }
 
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+main {
+  position: relative;
+  margin-top: 75px;
+}
+
 @font-face {
   font-family: Anybody;
   src: url('/fonts/Anybody-Light.ttf') format('truetype');

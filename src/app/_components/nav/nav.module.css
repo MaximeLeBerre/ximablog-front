@@ -14,6 +14,12 @@
     height: 75px;
 }
 
+@media screen and (min-width: 1400px) {
+    .nav {
+        padding: 2rem 10rem;
+    }
+}
+
 .link {
     font-family: CommitMono, sans-serif;
     font-size: 1rem;

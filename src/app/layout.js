@@ -13,8 +13,15 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-            <Nav />
-            {children}
+      <header>
+          <Nav />
+      </header>
+      <main>
+          {children}
+      </main>
+      <footer>
+          <p>Footer</p>
+      </footer>
       </body>
     </html>
   )
