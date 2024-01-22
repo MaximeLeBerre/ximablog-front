@@ -12,11 +12,10 @@ async function getLastArticles() {
 
 export const  LastArticles = async () => {
     const articles = await getLastArticles()
-    console.log("data", articles)
     return (
         <section className={styles.main}>
             <h2 className={styles.title}>Derniers articles</h2>
-            <div>{articles.data.map(article =>
+            <div className={styles.articlesContainer}>{articles.data.map(article =>
                 <Article id={article.id} data={article.attributes} key={article.id}/>)}
             </div>
         </section>

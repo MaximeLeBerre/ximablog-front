@@ -1,0 +1,24 @@
+.main {
+    display: flex;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.textContainer {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title {
+    font-family: CommitMono, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.desc {
+    font-family: CommitMono, sans-serif;
+    font-size: 1rem;
+    color: #535353;
+}

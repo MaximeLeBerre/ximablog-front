@@ -20,3 +20,10 @@
     line-height: normal;
     text-decoration-line: underline;
 }
+
+.articlesContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 0 50px;
+}
